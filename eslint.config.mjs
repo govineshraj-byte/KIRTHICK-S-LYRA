@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Vendored AI-skill assets (ui-ux-pro-max) — not project source:
+    ".opencode/**",
+    "design-system/**",
   ]),
 ]);
 
